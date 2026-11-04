@@ -1,0 +1,1298 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "CAVÉLOR",
+      "logo_subtext": "LUXURY FASHION HOUSE",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Collections",
+          "href": "/collections"
+        },
+        {
+          "name": "Blogs",
+          "href": "/blogs"
+        },
+        {
+          "name": "Testimonials",
+          "href": "/testimonials"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquire now",
+      "button_link": "/enquire",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "logo": "/logo/logo-w.webp",
+      "logo_text": "CAVÉLOR",
+      "tagline": "Timeless fashion, modern elegance,\nand exceptional quality.",
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Collections",
+          "href": "/collections"
+        },
+        {
+          "name": "Blogs",
+          "href": "/blogs"
+        }
+      ],
+      "support_title": "Support",
+      "support_links": [
+        {
+          "name": "Testimonials",
+          "href": "/testimonials"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        },
+        {
+          "name": "Enquire Now",
+          "href": "/enquire"
+        }
+      ],
+      "contact_title": "Get in Touch",
+      "contact_email": "info@xyz.com",
+      "contact_email_href": "mailto:info@xyz.com",
+      "contact_address_line1": "123 Education Lane,",
+      "contact_address_line2": "New York, NY 10001",
+      "contact_address": "123 Education Lane, New York, NY 10001",
+      "copyright": "© 2026 CAVÉLOR. All Rights Reserved.",
+      "contact_phone": "+100000000000",
+      "contact_phone_href": "tel:+100000000000"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top of page"
+    }
+  },
+  "categories": {
+    "LuxuryFashion": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "CAVÉLOR | Timeless Luxury Fashion",
+              "pageName": "Home",
+              "metadata": {
+                "title": "CAVÉLOR — Timeless Elegance & Haute Couture",
+                "description": "Experience haute couture and contemporary tailoring at CAVÉLOR. Discover our exclusive women's, men's, footwear, and accessories collections."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "CollectionsSection",
+                  "component": "Collections"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us | CAVÉLOR Paris",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About CAVÉLOR — Heritage & Haute Couture Craftsmanship",
+                "description": "Discover the heritage of CAVÉLOR Paris, where timeless tailoring meets contemporary luxury."
+              },
+              "components": [
+                {
+                  "key": "AboutBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "VisionMissionSection",
+                  "component": "VisionMission"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                }
+              ]
+            },
+            "collections": {
+              "title": "Our Collections | CAVÉLOR Paris",
+              "pageName": "Collections",
+              "metadata": {
+                "title": "Collections — Women's, Men's, Footwear & Accessories | CAVÉLOR",
+                "description": "Explore the curated collections of CAVÉLOR Paris: bespoke women's suits, men's tailoring, luxury footwear, and handcrafted leather accessories."
+              },
+              "components": [
+                {
+                  "key": "CollectionsBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "CollectionsSection",
+                  "component": "Collections"
+                }
+              ]
+            },
+            "blogs": {
+              "title": "Fashion & Lifestyle Journal | CAVÉLOR Paris",
+              "pageName": "Blogs",
+              "metadata": {
+                "title": "Journal & Editorial — Fashion Trends | CAVÉLOR Paris",
+                "description": "Read our latest editorial pieces on timeless wardrobe building, couture silhouettes, and luxury lifestyle trends."
+              },
+              "components": [
+                {
+                  "key": "BlogsBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                }
+              ]
+            },
+            "testimonials": {
+              "title": "Client Testimonials | CAVÉLOR Paris",
+              "pageName": "Testimonials",
+              "metadata": {
+                "title": "Client Reviews & Testimonials | CAVÉLOR Paris",
+                "description": "Discover what connoisseurs and loyal patrons say about CAVÉLOR's bespoke tailoring and luxury garments."
+              },
+              "components": [
+                {
+                  "key": "TestimonialsBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Our Atelier | CAVÉLOR Paris",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us — Private Appointments & Customer Care | CAVÉLOR Paris",
+                "description": "Connect with CAVÉLOR's Parisian atelier for private styling appointments, inquiries, and customer concierge."
+              },
+              "components": [
+                {
+                  "key": "ContactBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "enquire": {
+              "title": "Private Client Services & Enquiries | CAVÉLOR Paris",
+              "pageName": "Enquire Now",
+              "metadata": {
+                "title": "VIP Enquiries & Appointments | CAVÉLOR Paris",
+                "description": "Schedule a private consultation, reserve exclusive runway pieces, or request bespoke couture fittings."
+              },
+              "components": [
+                {
+                  "key": "EnquireBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquireSection",
+                  "component": "Enquire"
+                }
+              ]
+            },
+            "blog_detail": {
+              "title": "Blog Detail | CAVÉLOR Paris",
+              "pageName": "Blog Detail",
+              "metadata": {
+                "title": "Blog Detail | CAVÉLOR Paris",
+                "description": "Editorial fashion insights and capsule wardrobe masterclass from CAVÉLOR Paris."
+              },
+              "components": [
+                {
+                  "key": "BlogDetailBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailSection",
+                  "component": "BlogDetail"
+                }
+              ]
+            },
+            "collections_detail": {
+              "title": "Collections Detail | CAVÉLOR Paris",
+              "pageName": "Collections Detail",
+              "metadata": {
+                "title": "Collections Detail — Haute Couture & Luxury Fashion | CAVÉLOR Paris",
+                "description": "Discover exquisite craftsmanship, premium fabrics, and elegant silhouettes from CAVÉLOR luxury collection."
+              },
+              "components": [
+                {
+                  "key": "CollectionsDetailBreadcrumb",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "CollectionsDetailSection",
+                  "component": "CollectionsDetail"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "left_image": "/hero/left.webp",
+              "left_image_alt": "CAVÉLOR Haute Couture Model on Steps",
+              "right_tagline": "NEW COLLECTION",
+              "right_heading": "Timeless",
+              "right_heading_highlight": "Elegance",
+              "right_description": "Refined designs for a modern woman who embraces sophistication every day.",
+              "right_button_text": "EXPLORE COLLECTION",
+              "right_button_link": "#collections",
+              "right_portrait_image": "/hero/hero-model.webp",
+              "right_portrait_alt": "Woman in tailored burgundy satin blazer"
+            },
+            "about": {
+              "eyebrow": "ABOUT US",
+              "heading_main": "The Essence of ",
+              "heading_highlight": "Modern Luxury",
+              "description": "At CAVÉLOR, we craft timeless fashion that blends refined craftsmanship, contemporary design, and effortless elegance. Our collections are made for individuals who value quality, style, and a distinctive sense of sophistication.",
+              "button_text": "READ MORE →",
+              "button_link": "/about"
+            },
+            "collections": {
+              "eyebrow": "OUR COLLECTIONS",
+              "heading_main": "Explore Our ",
+              "heading_highlight": "All Products",
+              "subtitle": "A curated range of timeless styles, premium fabrics, and modern designs for every occasion.",
+              "load_more_text": "View More Products",
+              "home_items": [
+                {
+                  "id": "womens",
+                  "slug": "blazers",
+                  "title": "WOMEN'S COLLECTION",
+                  "title_line1": "WOMEN'S",
+                  "title_line2": "COLLECTION",
+                  "image": "/collections/women.webp",
+                  "image_alt": "Women's Tailored Burgundy Suit Collection",
+                  "button_text": "VIEW MORE →",
+                  "button_link": "/collections"
+                },
+                {
+                  "id": "mens",
+                  "slug": "suits",
+                  "title": "MEN'S COLLECTION",
+                  "title_line1": "MEN'S",
+                  "title_line2": "COLLECTION",
+                  "image": "/collections/men.webp",
+                  "image_alt": "Men's Linen Blazer & Burgundy Silk Shirt Collection",
+                  "button_text": "VIEW MORE →",
+                  "button_link": "/collections"
+                },
+                {
+                  "id": "accessories",
+                  "slug": "ethnic-wear",
+                  "title": "ACCESSORIES COLLECTION",
+                  "title_line1": "ACCESSORIES",
+                  "title_line2": "COLLECTION",
+                  "image": "/collections/accessories.webp",
+                  "image_alt": "Luxury Structured Burgundy Leather Handbag and Eyewear",
+                  "button_text": "VIEW MORE →",
+                  "button_link": "/collections"
+                },
+                {
+                  "id": "footwear",
+                  "slug": "party-wear",
+                  "title": "FOOTWEAR COLLECTION",
+                  "title_line1": "FOOTWEAR",
+                  "title_line2": "COLLECTION",
+                  "image": "/collections/footwear.webp",
+                  "image_alt": "Glossy Burgundy Stiletto Pumps Footwear Collection",
+                  "button_text": "VIEW MORE →",
+                  "button_link": "/collections"
+                }
+              ],
+              "items": [
+                {
+                  "id": "1",
+                  "slug": "blazers",
+                  "title": "Blazers",
+                  "image": "/collections/blazers.webp",
+                  "image_alt": "Blazers Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/blazers"
+                },
+                {
+                  "id": "2",
+                  "slug": "suits",
+                  "title": "Suits",
+                  "image": "/collections/suits.webp",
+                  "image_alt": "Suits Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/suits"
+                },
+                {
+                  "id": "3",
+                  "slug": "ethnic-wear",
+                  "title": "Ethnic Wear",
+                  "image": "/collections/ethnic-wear.webp",
+                  "image_alt": "Embroidered Ethnic Set",
+                  "button_text": "View More",
+                  "button_link": "/collections/ethnic-wear"
+                },
+                {
+                  "id": "4",
+                  "slug": "casual-wear",
+                  "title": "Casual Wear",
+                  "image": "/collections/casual-wear.webp",
+                  "image_alt": "Casual Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/casual-wear"
+                },
+                {
+                  "id": "5",
+                  "slug": "party-wear",
+                  "title": "Party Wear",
+                  "image": "/collections/party-wear.webp",
+                  "image_alt": "Party Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/party-wear"
+                },
+                {
+                  "id": "6",
+                  "slug": "formal-wear",
+                  "title": "Formal Wear",
+                  "image": "/collections/formal-wear.webp",
+                  "image_alt": "Formal Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/formal-wear"
+                },
+                {
+                  "id": "7",
+                  "slug": "knitwear",
+                  "title": "Knitwear",
+                  "image": "/collections/knitwear.webp",
+                  "image_alt": "Knitwear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/knitwear"
+                },
+                {
+                  "id": "8",
+                  "slug": "festive-wear",
+                  "title": "Festive Wear",
+                  "image": "/collections/festive-wear.webp",
+                  "image_alt": "Festive Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/festive-wear"
+                },
+                {
+                  "id": "9",
+                  "slug": "dresses",
+                  "title": "Dresses",
+                  "image": "/collections/dresses.webp",
+                  "image_alt": "Dresses Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/dresses"
+                },
+                {
+                  "id": "10",
+                  "slug": "tshirts-polos",
+                  "title": "T-Shirts & Polos",
+                  "image": "/collections/tshirts-polos.webp",
+                  "image_alt": "T-Shirts & Polos Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/tshirts-polos"
+                },
+                {
+                  "id": "11",
+                  "slug": "sarees",
+                  "title": "Sarees",
+                  "image": "/collections/sarees.webp",
+                  "image_alt": "Sarees Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/sarees"
+                },
+                {
+                  "id": "12",
+                  "slug": "shirts",
+                  "title": "Shirts",
+                  "image": "/collections/shirts.webp",
+                  "image_alt": "Shirts Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/shirts"
+                }
+              ]
+            },
+            "testimonials": {
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "heading_main": "What Our ",
+              "heading_highlight": "Customers Say",
+              "subtitle": "Real experiences from fashion lovers who trust Cavélor for style, quality, and elegance.",
+              "items": [
+                {
+                  "id": "1",
+                  "quote": "The fabric quality and fit are exceptional. The collection is stylish, elegant, and perfect for every occasion. Truly a premium experience!",
+                  "author_name": "Aditi Sharma",
+                  "location": "New Delhi",
+                  "rating": 5,
+                  "image": "/testimonials/aditi-sharma-hd.webp",
+                  "image_alt": "Aditi Sharma review"
+                },
+                {
+                  "id": "2",
+                  "quote": "Cavélor never disappoints! The designs are modern yet timeless, and the craftsmanship is top-notch. It's my go-to fashion destination.",
+                  "author_name": "Rahul Mehta",
+                  "location": "Mumbai",
+                  "rating": 5,
+                  "image": "/testimonials/rahul-mehta-hd.webp",
+                  "image_alt": "Rahul Mehta review"
+                },
+                {
+                  "id": "3",
+                  "quote": "Loved the attention to detail and the premium feel of the outfits. The collection is versatile and always on-trend.",
+                  "author_name": "Sneha Verma",
+                  "location": "Bengaluru",
+                  "rating": 5,
+                  "image": "/testimonials/sneha-verma-hd.webp",
+                  "image_alt": "Sneha Verma review"
+                },
+                {
+                  "id": "4",
+                  "quote": "A seamless shopping experience from start to finish. The outfits fit perfectly, and the quality is excellent. Highly recommended!",
+                  "author_name": "Arjun Kapoor",
+                  "location": "Pune",
+                  "rating": 5,
+                  "image": "/testimonials/arjun-kapoor-hd.webp",
+                  "image_alt": "Arjun Kapoor review"
+                }
+              ]
+            },
+            "blogs": {
+              "eyebrow": "OUR BLOGS",
+              "heading_main": "Latest Trends in ",
+              "heading_highlight": "Fashion & Lifestyle",
+              "subtitle": "Style guides, fashion tips, and lifestyle inspiration from the world of CAVÉLOR.",
+              "items": [
+                {
+                  "id": "1",
+                  "slug": "build-your-perfect-capsule-wardrobe-today",
+                  "title": "Build Your Perfect Capsule Wardrobe Today",
+                  "eyebrow": "BLOG DETAILS",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor",
+                  "category": "Fashion, Lifestyle",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/build-your-perfect-capsule-wardrobe-today",
+                  "image": "/blogs/capsule-featured.webp",
+                  "image_alt": "Capsule Wardrobe Flat Lay with Trench, Knitwear and Leather Handbag"
+                },
+                {
+                  "id": "2",
+                  "slug": "timeless-fashion-pieces-every-woman-needs",
+                  "title": "Timeless Fashion Pieces Every Woman Needs",
+                  "eyebrow": "EDITORIAL JOURNAL",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor Atelier",
+                  "category": "Couture, Styling",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/timeless-fashion-pieces-every-woman-needs",
+                  "image": "/blogs/blog2.webp",
+                  "image_alt": "Sophisticated Woman in Burgundy Tailored Blazer"
+                },
+                {
+                  "id": "3",
+                  "slug": "the-essential-lifestyle-trends-to-follow-this-season",
+                  "title": "The Essential Lifestyle Trends to Follow This Season",
+                  "eyebrow": "LIFESTYLE & LUXURY",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor Studio",
+                  "category": "Lifestyle, Design",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/the-essential-lifestyle-trends-to-follow-this-season",
+                  "image": "/blogs/blog3.webp",
+                  "image_alt": "Artisanal Perfume and Velvet Luxury Lifestyle Accents"
+                }
+              ]
+            },
+            "breadcrumb": {
+              "background_image": "/hero/left.webp",
+              "background_alt": "CAVÉLOR Paris Haute Couture Architecture",
+              "title": "CAVÉLOR Paris",
+              "items": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "CONTACT US",
+              "heading_main": "Get in ",
+              "heading_highlight": "Touch",
+              "subtitle": "Have a question, need styling advice, or want to know more about our collections? We're here to help.",
+              "items": [
+                {
+                  "id": "address",
+                  "icon": "MapPin",
+                  "title": "Our Address",
+                  "line1": "123 Education Lane,",
+                  "line2": "New York, NY 10001"
+                },
+                {
+                  "id": "phone",
+                  "icon": "Phone",
+                  "title": "Call Us",
+                  "line1": "011-40197514 / 15",
+                  "line2": ""
+                },
+                {
+                  "id": "email",
+                  "icon": "Mail",
+                  "title": "Email Us",
+                  "line1": "contact@cavelor.com",
+                  "line2": ""
+                },
+                {
+                  "id": "hours",
+                  "icon": "Clock",
+                  "title": "Business Hours",
+                  "line1": "Mon – Sat: 10:00 AM – 7:00 PM",
+                  "line2": "Sunday: Closed"
+                }
+              ],
+              "address_title": "Our Address",
+              "address_line1": "123 Education Lane,",
+              "address_line2": "New York, NY 10001",
+              "phone_title": "Call Us",
+              "phone": "011-40197514 / 15",
+              "email_title": "Email Us",
+              "email": "contact@cavelor.com",
+              "hours_title": "Business Hours",
+              "hours_line1": "Mon – Sat: 10:00 AM – 7:00 PM",
+              "hours_line2": "Sunday: Closed",
+              "address": "123 Education Lane, New York, NY 10001",
+              "hours": "Mon – Sat: 10:00 AM – 7:00 PM",
+              "form_title_prefix": "Send Us a ",
+              "form_title_highlight": "Message",
+              "form_name_placeholder": "Your Name *",
+              "form_email_placeholder": "Your Email *",
+              "form_subject_placeholder": "Subject",
+              "form_message_placeholder": "Your Message *",
+              "form_button_text": "Send Message →",
+              "map_address": "123 Education Lane, New York, NY 10001",
+              "map_pin_title": "Cavélor",
+              "map_pin_subtitle": "New York, NY 10001",
+              "success_title": "Thank You for Your Message",
+              "success_message": "Your inquiry has been received. Our team will get back to you shortly.",
+              "send_another_text": "Send Another Message"
+            },
+            "enquire": {
+              "eyebrow": "ENQUIRE NOW",
+              "heading_main": "Request ",
+              "heading_highlight": "More Details",
+              "subtitle": "Interested in our collections, bulk orders, or styling support? Share your requirements and our team will get back to you soon.",
+              "image": "/enquire/enquire-fashion.webp",
+              "image_alt": "CAVÉLOR Parisian luxury showroom fashion rack and accessories",
+              "form_title_prefix": "Enquiry ",
+              "form_title_highlight": "Form",
+              "form_name_placeholder": "Your Name *",
+              "form_email_placeholder": "Your Email *",
+              "form_phone_placeholder": "Phone Number *",
+              "form_dropdown_placeholder": "Enquiry For *",
+              "dropdown_options": [
+                "Bespoke Tailoring",
+                "Bulk Orders & Corporate",
+                "Styling & Private Salon",
+                "Runway Capsule Pre-Order",
+                "General Inquiries"
+              ],
+              "form_message_placeholder": "Your Requirements / Message *",
+              "button_text": "Submit Enquiry →",
+              "features": [
+                {
+                  "id": "quick-response",
+                  "icon": "Headphones",
+                  "title": "Quick Response",
+                  "description": "We'll get back to you shortly"
+                },
+                {
+                  "id": "trusted-support",
+                  "icon": "ShieldCheck",
+                  "title": "Trusted Support",
+                  "description": "Get the right guidance"
+                },
+                {
+                  "id": "custom-assistance",
+                  "icon": "Layers",
+                  "title": "Custom Assistance",
+                  "description": "Solutions tailored to your needs"
+                }
+              ],
+              "services": [
+                "Haute Couture Tailoring",
+                "Private VIP Salon Viewing",
+                "Runway Capsule Pre-Order",
+                "Personal Wardrobe Styling"
+              ],
+              "success_title": "Enquiry Successfully Submitted",
+              "success_message": "Thank you for reaching out to CAVÉLOR. Our bespoke advisor will review your requirements and get in touch with you shortly.",
+              "submit_another_text": "Submit Another Enquiry"
+            },
+            "vision_mission": {
+              "items": [
+                {
+                  "id": "vision",
+                  "icon": "/icons/vision.webp",
+                  "title": "Our Vision",
+                  "description": "To be a leading fashion house known for elegance, quality, and enduring style worldwide."
+                },
+                {
+                  "id": "mission",
+                  "icon": "/icons/mission.webp",
+                  "title": "Our Mission",
+                  "description": "To create exceptional fashion experiences through superior design, craftsmanship, and service."
+                },
+                {
+                  "id": "values",
+                  "icon": "/icons/values.webp",
+                  "title": "Our Values",
+                  "description": "Quality, authenticity, sustainability, and a customer-first approach in everything we do."
+                }
+              ]
+            },
+            "why_choose": {
+              "eyebrow": "WHY CHOOSE CAVÉLOR",
+              "heading_main": "A Refined Fashion ",
+              "heading_highlight": "Experience",
+              "subtitle": "Built on quality, design, and trust.",
+              "features": [
+                {
+                  "id": "quality",
+                  "icon": "/icons/quality.webp",
+                  "title": "Premium Quality",
+                  "description": "Finest fabrics and craftsmanship."
+                },
+                {
+                  "id": "designs",
+                  "icon": "/icons/designs.webp",
+                  "title": "Timeless Designs",
+                  "description": "Styles that stay always relevant."
+                },
+                {
+                  "id": "elegance",
+                  "icon": "/icons/elegance.webp",
+                  "title": "Modern Elegance",
+                  "description": "A perfect blend of classic and contemporary."
+                },
+                {
+                  "id": "focus",
+                  "icon": "/icons/focus.webp",
+                  "title": "Customer Focus",
+                  "description": "A seamless and personalized experience."
+                }
+              ]
+            },
+            "blog_detail": {
+              "read_more_text": "Read More",
+              "back_button_text": "Back to Blogs",
+              "back_button_link": "/blogs",
+              "items": [
+                {
+                  "id": "1",
+                  "slug": "build-your-perfect-capsule-wardrobe-today",
+                  "title": "Build Your Perfect Capsule Wardrobe Today",
+                  "title_prefix": "Build Your Perfect",
+                  "title_highlight": "Capsule Wardrobe",
+                  "title_suffix": "Today",
+                  "eyebrow": "BLOG DETAILS",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor",
+                  "category": "Fashion, Lifestyle",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/build-your-perfect-capsule-wardrobe-today",
+                  "image": "/blogs/capsule-featured.webp",
+                  "image_alt": "Capsule Wardrobe Flat Lay with Trench, Knitwear and Leather Handbag",
+                  "intro": "A capsule wardrobe is all about owning fewer, better pieces that work together effortlessly. It simplifies your style, saves time, and ensures you always look polished, no matter the occasion.",
+                  "section_1": {
+                    "heading_main": "Why a Capsule ",
+                    "heading_highlight": "Wardrobe Works",
+                    "description": "It focuses on versatile, timeless pieces that can be mixed and matched, helping you create multiple looks with ease. It's a smart approach to a more stylish and clutter-free wardrobe.",
+                    "image": "/blogs/capsule-rack.webp",
+                    "image_alt": "Golden Clothing Rack with Tailored Coats and Blazers",
+                    "image_position": "center"
+                  },
+                  "quote": {
+                    "text": "A capsule wardrobe isn't about having less — it's about having the ",
+                    "highlight": "right pieces",
+                    "suffix": " that truly work for you."
+                  },
+                  "section_2": {
+                    "heading": "Essential Pieces to Include",
+                    "checklist": [
+                      "A well-fitted blazer",
+                      "Classic shirts and tops",
+                      "Versatile trousers or denim",
+                      "A timeless dress",
+                      "Quality outerwear"
+                    ],
+                    "image": "/blogs/capsule-sweaters.webp",
+                    "image_alt": "Folded Knitwear Sweaters in White, Burgundy, and Cream",
+                    "image_position": "center"
+                  },
+                  "section_3": {
+                    "heading": "Style It Your Way",
+                    "description": "The beauty of a capsule wardrobe is its flexibility. Whether you prefer a minimal, classic, or modern look, these core pieces can be styled to match your personal fashion sense throughout the year."
+                  },
+                  "image_aspect": "aspect-[16/10] sm:aspect-[16/9]",
+                  "image_position": "center"
+                },
+                {
+                  "id": "2",
+                  "slug": "timeless-fashion-pieces-every-woman-needs",
+                  "title": "Timeless Fashion Pieces Every Woman Needs",
+                  "title_prefix": "Timeless Fashion Pieces",
+                  "title_highlight": "Every Woman",
+                  "title_suffix": "Needs",
+                  "eyebrow": "EDITORIAL JOURNAL",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor Atelier",
+                  "category": "Couture, Styling",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/timeless-fashion-pieces-every-woman-needs",
+                  "image": "/blogs/blog2.webp",
+                  "image_alt": "Sophisticated Woman in Burgundy Tailored Blazer",
+                  "intro": "True elegance defies fleeting seasonal trends. Investing in foundational haute couture essentials guarantees an enduring silhouette of confidence, poise, and architectural precision.",
+                  "section_1": {
+                    "heading_main": "The Power of ",
+                    "heading_highlight": "Signature Tailoring",
+                    "description": "A precisely tailored jacket or sharp structured trouser transforms your everyday presence. Crafted from luxurious virgin wool and mulberry silk blends, these foundational garments balance sculptural rigor with effortless feminine ease.",
+                    "image": "/collections/women.webp",
+                    "image_alt": "Elegant Parisian Tailoring and Silk Ensembles",
+                    "image_position": "center 65%"
+                  },
+                  "quote": {
+                    "text": "Fashion changes, but ",
+                    "highlight": "impeccable craftsmanship",
+                    "suffix": " and timeless cut endure across generations."
+                  },
+                  "section_2": {
+                    "heading": "Foundational Wardrobe Pillars",
+                    "checklist": [
+                      "Structured double-breasted bordeaux blazer",
+                      "Fluid silk blouse in ivory or champagne",
+                      "High-rise tailored trousers with sharp pleats",
+                      "Sculptural calfskin handbag with gold hardware",
+                      "Handcrafted pointed-toe leather pumps"
+                    ],
+                    "image": "/collections/accessories.webp",
+                    "image_alt": "Luxury Handbags and Leather Craftsmanship",
+                    "image_position": "center 45%"
+                  },
+                  "section_3": {
+                    "heading": "Mastering Effortless Proportion",
+                    "description": "Balancing form and function is at the heart of CAVÉLOR's design philosophy. By choosing harmonious proportions and rich jewel tones, you cultivate an aura of quiet sophistication from dawn to twilight."
+                  },
+                  "image_aspect": "aspect-[16/10] sm:aspect-[16/9]",
+                  "image_position": "top"
+                },
+                {
+                  "id": "3",
+                  "slug": "the-essential-lifestyle-trends-to-follow-this-season",
+                  "title": "The Essential Lifestyle Trends to Follow This Season",
+                  "title_prefix": "The Essential Lifestyle Trends",
+                  "title_highlight": "To Follow",
+                  "title_suffix": "This Season",
+                  "eyebrow": "LIFESTYLE & LUXURY",
+                  "date": "June 9, 2026",
+                  "author": "Cavélor Studio",
+                  "category": "Lifestyle, Design",
+                  "read_more_text": "Read More",
+                  "href": "/blogs/the-essential-lifestyle-trends-to-follow-this-season",
+                  "image": "/blogs/blog3.webp",
+                  "image_alt": "Artisanal Perfume and Velvet Luxury Lifestyle Accents",
+                  "intro": "Modern luxury extends far beyond garments. It is an intentional philosophy that harmonizes artisanal design, sensory indulgence, and refined living into every moment.",
+                  "section_1": {
+                    "heading_main": "Curating an Atmosphere of ",
+                    "heading_highlight": "Quiet Luxury",
+                    "description": "From bespoke fragrance notes to hand-burnished leather accessories, the modern connoisseur seeks pieces with soul. Understated palettes, organic textures, and artisanal details define this season's refined lifestyle aesthetic.",
+                    "image": "/collections/footwear.webp",
+                    "image_alt": "Bespoke Leather Craftsmanship and Footwear",
+                    "image_position": "center"
+                  },
+                  "quote": {
+                    "text": "Luxury is not about excess — it is the presence of ",
+                    "highlight": "pure intentionality",
+                    "suffix": " in every detail of your daily life."
+                  },
+                  "section_2": {
+                    "heading": "Season's Defining Lifestyle Accents",
+                    "checklist": [
+                      "Niche artisanal botanical fragrances",
+                      "Minimalist heirloom gold jewelry",
+                      "Fine calfskin travel accouterments",
+                      "Sculptural leather footwear for city living",
+                      "Tactile silk and cashmere loungewear"
+                    ],
+                    "image": "/hero/hero-portrait.webp",
+                    "image_alt": "Modern Parisian Woman Embracing Luxury Aesthetics",
+                    "image_position": "top"
+                  },
+                  "section_3": {
+                    "heading": "An Enduring Philosophy of Living",
+                    "description": "Embracing the CAVÉLOR lifestyle means choosing quality over quantity in every dimension of your environment. Curate your daily rituals with timeless elegance, thoughtful craftsmanship, and understated confidence."
+                  },
+                  "image_aspect": "aspect-[16/10] sm:aspect-[16/9]",
+                  "image_position": "center"
+                }
+              ]
+            },
+            "collections_detail": {
+              "eyebrow_default": "COLLECTION",
+              "enquire_button_text": "Enquire Now",
+              "enquire_button_link": "/enquire",
+              "product_details_heading": "Product Details",
+              "description_heading": "Description",
+              "related_heading_main": "You May ",
+              "related_heading_highlight": "Also Like",
+              "related_button_text": "View More",
+              "items": [
+                {
+                  "id": "1",
+                  "slug": "blazers",
+                  "title": "Blazers",
+                  "image": "/collections/blazers.webp",
+                  "image_alt": "Blazers Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/blazers",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Tailored ",
+                  "detail_title_highlight": "Luxury Blazer",
+                  "short_description": "A sculpted luxury blazer crafted from virgin wool with peak lapels and subtle signature topstitching for timeless power dressing.",
+                  "features": [
+                    "Virgin Wool Blend",
+                    "Hand-Finished Lapels",
+                    "Signature Horn Buttons",
+                    "Perfect for Evening & Business Occasions"
+                  ],
+                  "product_details": {
+                    "Fabric": "Wool Blend",
+                    "Work": "Tailored Construction",
+                    "Occasion": "Evening | Business | Special Events",
+                    "Fit": "Slim Tailored Fit",
+                    "Style": "Single-Breasted Blazer"
+                  },
+                  "description": "An impeccably structured blazer cut with Parisian precision. Designed to transition seamlessly from high-level boardroom meetings to sophisticated evening soirees with supreme ease and poise.",
+                  "related_slugs": [
+                    "suits",
+                    "formal-wear",
+                    "shirts",
+                    "casual-wear"
+                  ]
+                },
+                {
+                  "id": "2",
+                  "slug": "suits",
+                  "title": "Suits",
+                  "image": "/collections/suits.webp",
+                  "image_alt": "Suits Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/suits",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Bespoke Linen ",
+                  "detail_title_highlight": "Tailored Suit",
+                  "short_description": "Crafted from breathable Italian linen, this tailored suit pairs sharp sartorial lines with relaxed Mediterranean warmth.",
+                  "features": [
+                    "100% Italian Linen",
+                    "Hand-Canvassed Chest",
+                    "Pick-Stitch Edge Detailing",
+                    "Ideal for Destination & Summer Events"
+                  ],
+                  "product_details": {
+                    "Fabric": "Pure Italian Linen",
+                    "Work": "Hand Canvassed",
+                    "Occasion": "Destination Weddings | Summer Galas",
+                    "Fit": "Modern Tailored Fit",
+                    "Style": "Two-Piece Notch Lapel Suit"
+                  },
+                  "description": "The pinnacle of understated luxury. Made with master craftsmanship in Paris, ensuring optimal breathability, crisp lines, and an effortlessly confident silhouette.",
+                  "related_slugs": [
+                    "blazers",
+                    "formal-wear",
+                    "shirts",
+                    "casual-wear"
+                  ]
+                },
+                {
+                  "id": "3",
+                  "slug": "ethnic-wear",
+                  "title": "Ethnic Wear",
+                  "image": "/collections/ethnic-wear.webp",
+                  "image_alt": "Embroidered Ethnic Set",
+                  "button_text": "View More",
+                  "button_link": "/collections/ethnic-wear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Embroidered ",
+                  "detail_title_highlight": "Ethnic Set",
+                  "short_description": "A beautifully crafted ethnic set featuring intricate embroidery, refined detailing, and a graceful silhouette for a timeless look.",
+                  "features": [
+                    "Premium Fabric",
+                    "Intricate Embroidery",
+                    "Elegant Detailing",
+                    "Perfect for Festive & Special Occasions"
+                  ],
+                  "product_details": {
+                    "Fabric": "Silk Blend",
+                    "Work": "Embroidery",
+                    "Occasion": "Festive | Wedding | Special Events",
+                    "Fit": "Regular Fit",
+                    "Style": "Traditional Ethnic Set"
+                  },
+                  "description": "A refined ethnic set designed for special occasions, blending traditional craftsmanship with a modern silhouette. The intricate embroidery and elegant detailing add a touch of sophistication, making it a timeless addition to your wardrobe.",
+                  "related_slugs": [
+                    "festive-wear",
+                    "sarees",
+                    "party-wear",
+                    "suits"
+                  ]
+                },
+                {
+                  "id": "4",
+                  "slug": "casual-wear",
+                  "title": "Casual Wear",
+                  "image": "/collections/casual-wear.webp",
+                  "image_alt": "Casual Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/casual-wear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Contemporary ",
+                  "detail_title_highlight": "Casual Wear",
+                  "short_description": "Effortless weekend luxury featuring structured cotton overshirts, relaxed layering pieces, and refined casual tailoring.",
+                  "features": [
+                    "Heavyweight Brushed Cotton",
+                    "Utility Pocket Styling",
+                    "Matte Enamel Snaps",
+                    "Versatile Layering Piece"
+                  ],
+                  "product_details": {
+                    "Fabric": "Brushed Cotton Blend",
+                    "Work": "Garment Dyed Finish",
+                    "Occasion": "Casual Outings | Weekend Travel",
+                    "Fit": "Relaxed Overshirt Fit",
+                    "Style": "Modern Casual Jacket"
+                  },
+                  "description": "Elevate off-duty moments with CAVÉLOR signature casual collection. Combining durable utilitarian warmth with Parisian couture cuts.",
+                  "related_slugs": [
+                    "tshirts-polos",
+                    "shirts",
+                    "blazers",
+                    "suits"
+                  ]
+                },
+                {
+                  "id": "5",
+                  "slug": "party-wear",
+                  "title": "Party Wear",
+                  "image": "/collections/party-wear.webp",
+                  "image_alt": "Party Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/party-wear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Embellished ",
+                  "detail_title_highlight": "Party Gown",
+                  "short_description": "An ethereal evening gown embroidered with champagne crystal sequins, hand-set micro-beads, and a graceful floor-sweeping silhouette.",
+                  "features": [
+                    "Hand-Sewn Glass Crystals",
+                    "Soft Tulle & Silk Organza",
+                    "Built-in Corsetry Support",
+                    "Floor-Length Evening Cut"
+                  ],
+                  "product_details": {
+                    "Fabric": "Silk Tulle & Organza",
+                    "Work": "Hand Sequin & Bead Embroidery",
+                    "Occasion": "Galas | Receptions | Red Carpet",
+                    "Fit": "Form-Fitting Corset Silhouette",
+                    "Style": "Sleeveless Evening Gown"
+                  },
+                  "description": "Created for unforgettable entrances. The delicate champagne gold embroidery catches radiant ambient light from every angle with breathtaking drama.",
+                  "related_slugs": [
+                    "ethnic-wear",
+                    "dresses",
+                    "sarees",
+                    "formal-wear"
+                  ]
+                },
+                {
+                  "id": "6",
+                  "slug": "formal-wear",
+                  "title": "Formal Wear",
+                  "image": "/collections/formal-wear.webp",
+                  "image_alt": "Formal Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/formal-wear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Couture 3-Piece ",
+                  "detail_title_highlight": "Formal Suit",
+                  "short_description": "A statuesque three-piece formal suit in deep burgundy wool, paired with matching waistcoat, silk tie, and sharp peak lapels.",
+                  "features": [
+                    "Super 130s Merino Wool",
+                    "Matching Horseshoe Waistcoat",
+                    "Silk Satin Lapel Facings",
+                    "Full Floating Canvas Interior"
+                  ],
+                  "product_details": {
+                    "Fabric": "100% Super 130s Wool",
+                    "Work": "Bespoke Tailoring",
+                    "Occasion": "Black Tie | Weddings | Banquets",
+                    "Fit": "Structured British-Parisian Cut",
+                    "Style": "3-Piece Peak Lapel Tuxedo"
+                  },
+                  "description": "A masterclass in formal power dressing. Rich burgundy tones add regal depth beyond conventional black, commanding attention with quiet poise.",
+                  "related_slugs": [
+                    "suits",
+                    "festive-wear",
+                    "shirts",
+                    "blazers"
+                  ]
+                },
+                {
+                  "id": "7",
+                  "slug": "knitwear",
+                  "title": "Knitwear",
+                  "image": "/collections/knitwear.webp",
+                  "image_alt": "Knitwear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/knitwear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Ribbed Cashmere ",
+                  "detail_title_highlight": "Knitwear",
+                  "short_description": "Spun from ultra-fine Mongolian cashmere, this plush ribbed knit sweater provides whisper-soft warmth and effortless modern draping.",
+                  "features": [
+                    "100% Grade-A Cashmere",
+                    "Chunky 7-Gauge Rib Knit",
+                    "Seamless Integral Knitting",
+                    "Relaxed Architectural Silhouette"
+                  ],
+                  "product_details": {
+                    "Fabric": "Pure Cashmere",
+                    "Work": "Ribbed Fisherman Knit",
+                    "Occasion": "Winter Luxe | Apres-Ski | Travel",
+                    "Fit": "Oversized Draped Fit",
+                    "Style": "Chunky Turtleneck Pullover"
+                  },
+                  "description": "Tactile indulgence at its most refined. Crafted with meticulous tension balancing to prevent pilling while maintaining cloud-like softness.",
+                  "related_slugs": [
+                    "dresses",
+                    "casual-wear",
+                    "blazers",
+                    "shirts"
+                  ]
+                },
+                {
+                  "id": "8",
+                  "slug": "festive-wear",
+                  "title": "Festive Wear",
+                  "image": "/collections/festive-wear.webp",
+                  "image_alt": "Festive Wear Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/festive-wear",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Heritage Raw Silk ",
+                  "detail_title_highlight": "Festive Kurta",
+                  "short_description": "An ivory raw silk kurta set enhanced with tonal threadwork on the mandarin collar, concealed placket, and matching churidar trousers.",
+                  "features": [
+                    "Pure Matka Raw Silk",
+                    "Tonal Hand Kantha Stitching",
+                    "Concealed Mother-of-Pearl Placket",
+                    "Includes Tailored Churidar"
+                  ],
+                  "product_details": {
+                    "Fabric": "Raw Silk & Chanderi",
+                    "Work": "Tone-on-Tone Threadwork",
+                    "Occasion": "Diwali | Sangeet | Celebrations",
+                    "Fit": "Straight Tailored Kurta",
+                    "Style": "Mandarin Collar Kurta Set"
+                  },
+                  "description": "Rooted in royal Indian heritage and reimagined for contemporary celebrations. The slubbed texture of pure raw silk imparts subtle organic richness.",
+                  "related_slugs": [
+                    "ethnic-wear",
+                    "sarees",
+                    "formal-wear",
+                    "suits"
+                  ]
+                },
+                {
+                  "id": "9",
+                  "slug": "dresses",
+                  "title": "Dresses",
+                  "image": "/collections/dresses.webp",
+                  "image_alt": "Dresses Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/dresses",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Botanical Silk ",
+                  "detail_title_highlight": "Couture Dress",
+                  "short_description": "A romantic square-neck dress adorned with hand-painted botanical motifs in deep crimson, accented by puffed sleeves and tiered skirt.",
+                  "features": [
+                    "Silk Crepe de Chine",
+                    "Archival Floral Screen Print",
+                    "Romantic Ruched Puff Sleeves",
+                    "Flattering Fitted Bodice"
+                  ],
+                  "product_details": {
+                    "Fabric": "100% Silk Crepe",
+                    "Work": "Digital Artisan Print",
+                    "Occasion": "Garden Parties | High Tea | Brunches",
+                    "Fit": "Fit and Flare Silhouette",
+                    "Style": "Square-Neck Midi Dress"
+                  },
+                  "description": "Effortlessly captures the poetic romance of spring in Paris. Floats gently with movement while maintaining a sculpted waistline.",
+                  "related_slugs": [
+                    "party-wear",
+                    "knitwear",
+                    "blazers",
+                    "sarees"
+                  ]
+                },
+                {
+                  "id": "10",
+                  "slug": "tshirts-polos",
+                  "title": "T-Shirts & Polos",
+                  "image": "/collections/tshirts-polos.webp",
+                  "image_alt": "T-Shirts & Polos Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/tshirts-polos",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Supima Pique ",
+                  "detail_title_highlight": "Luxury Polo",
+                  "short_description": "Crafted from long-staple Supima cotton pique, featuring double-mercerized yarn, contrast tipped collar, and mother-of-pearl buttons.",
+                  "features": [
+                    "100% Extra-Long Staple Cotton",
+                    "Double-Mercerized Luster",
+                    "Genuine Australian MOP Buttons",
+                    "Reinforced Side Slits"
+                  ],
+                  "product_details": {
+                    "Fabric": "100% Supima Cotton",
+                    "Work": "Knitted Pique Texture",
+                    "Occasion": "Smart Casual | Golf | Travel",
+                    "Fit": "Athletic Tailored Fit",
+                    "Style": "Short-Sleeve Polo Shirt"
+                  },
+                  "description": "A luxury wardrobe staple redefined. The double-mercerized treatment gives deep color retention and silky hand-feel through countless wears.",
+                  "related_slugs": [
+                    "casual-wear",
+                    "shirts",
+                    "suits",
+                    "blazers"
+                  ]
+                },
+                {
+                  "id": "11",
+                  "slug": "sarees",
+                  "title": "Sarees",
+                  "image": "/collections/sarees.webp",
+                  "image_alt": "Sarees Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/sarees",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Royal Kanjivaram ",
+                  "detail_title_highlight": "Silk Saree",
+                  "short_description": "An heirloom-quality mulberry silk saree handwoven in royal burgundy, adorned with pure gold zari borders and opulent temple pallu.",
+                  "features": [
+                    "Pure Mulberry Silk",
+                    "Pure Gold Zari Weave",
+                    "Heirloom Temple Border Motif",
+                    "Includes Unstitched Matching Blouse"
+                  ],
+                  "product_details": {
+                    "Fabric": "100% Pure Kanjivaram Silk",
+                    "Work": "Handloom Gold Zari Weaving",
+                    "Occasion": "Weddings | Receptions | Royal Galas",
+                    "Fit": "Traditional 6-Yard Drape",
+                    "Style": "Classical Kanjivaram Silk Saree"
+                  },
+                  "description": "An enduring tribute to age-old handloom excellence. Drapes with regal weight and radiant shimmer, making it a prized family heirloom.",
+                  "related_slugs": [
+                    "ethnic-wear",
+                    "party-wear",
+                    "festive-wear",
+                    "dresses"
+                  ]
+                },
+                {
+                  "id": "12",
+                  "slug": "shirts",
+                  "title": "Shirts",
+                  "image": "/collections/shirts.webp",
+                  "image_alt": "Shirts Collection",
+                  "button_text": "View More",
+                  "button_link": "/collections/shirts",
+                  "detail_tag": "COLLECTION",
+                  "detail_title_main": "Artisan French ",
+                  "detail_title_highlight": "Linen Shirt",
+                  "short_description": "A featherlight Normandy linen shirt designed with a camp collar, mother-of-pearl buttons, and washed for supreme lived-in softness.",
+                  "features": [
+                    "100% Normandy French Linen",
+                    "Garment Washed for Softness",
+                    "Seamless Camp Collar",
+                    "Curved Back Yoke with Pleats"
+                  ],
+                  "product_details": {
+                    "Fabric": "100% French Linen",
+                    "Work": "Enzyme Washed",
+                    "Occasion": "Resort | Riviera Travel | Dining",
+                    "Fit": "Relaxed Tailored Fit",
+                    "Style": "Camp Collar Long-Sleeve Shirt"
+                  },
+                  "description": "The ultimate embodiment of relaxed summer sophistication. Breathes effortlessly in warm climates while keeping a sharp, structured silhouette.",
+                  "related_slugs": [
+                    "casual-wear",
+                    "tshirts-polos",
+                    "suits",
+                    "blazers"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
